@@ -13,6 +13,7 @@ def main():
     image_resized = cv2.resize(image, (256, 256))
     image_tensor = torch.tensor(image_resized / 255.0).permute(2, 0, 1).unsqueeze(0).float().to(device)
 
+    #vladgomic
     unet = smp.Unet(
             encoder_name='resnet34',
             encoder_weights='imagenet',
