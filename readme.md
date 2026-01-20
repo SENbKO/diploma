@@ -4,9 +4,9 @@ Here are multiple image transformation methods implemented.
 1. First of all, to startup the main application, the api/backend_application.py file should be started. It starts up the backend and also give a possibility to access the frontend via localhost:8000. At this point all of the features should be accessible.
 
 2. To prepare this functionality, multiple steps were completed, these steps are contained in the training and testing files.
-3. blurring/BlurringTest.py contains the code to display a plot for different blurring techniques
+3. blurring/TestBlurring.ipynb contains the code to display a plot for different blurring techniques
 4. compression/CompressionService.py contains compression logic for the backend
-5. compression/TestCompression.py shows a plot for compressing the image of a big size
+5. compression/TestCompression.ipynb shows a plot for compressing the image of a big size
 6. The dataset directory should contain all of the datasets to be able to run training loops. Because of their size, they cannot be attached to the project and should be downloaded using following instructions:
 -VOC2012 dataset should be downloaded from https://www.kaggle.com/datasets/gopalbhattrai/pascal-voc-2012-dataset and obtained directories VOC2012_test and VOC2012_train_val should be put separately to dataset directory
 -DIV2K dataset should be downloaded from https://www.kaggle.com/datasets/soumikrakshit/div2k-high-resolution-images and obtained directories DIV2K_train_HR and DIV2K_valid_HR should be put separately to dataset directory
